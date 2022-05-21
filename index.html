@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div>
+      <h1>Ingreso al Sistema</h1>
+      <form
+        name="myForm"
+        action="/index.html"
+        onsubmit="return validateForm()"
+        method="post"
+      >
+        Usuario: <input type="text" name="user" />
+        <br />
+        Clave: <input type="password" name="pass" />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <script src="control.js"></script>
+  </body>
+</html>
